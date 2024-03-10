@@ -34,7 +34,7 @@ function my_evaleval(screen_calculator) {
     clearscreen_result(screen_result_calculator);
     show(screen_result_calculator, eval(screen_calculator.textContent));
   } catch (expression_error) {
-    show(screen_result_calculator, "erreur");
+    show(screen_result_calculator, "syntax error");
   }
 }
 function clearscreen_result(screen_result_calculator) {
