@@ -1,0 +1,16 @@
+@mixin display-flex-column-center {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+@mixin display-flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin dimension($w, $h) {
+  width: $w;
+  height: $h;
+}
