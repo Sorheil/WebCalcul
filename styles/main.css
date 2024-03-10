@@ -33,7 +33,7 @@ body {
   justify-content: center;
 }
 .calculator__screen__expression, .calculator__screen__result {
-  color: #c2def4;
+  color: red;
   width: 100%;
   height: 25%;
   text-align: right;

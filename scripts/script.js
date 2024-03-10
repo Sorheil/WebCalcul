@@ -51,6 +51,7 @@ function load_webcalcul(list_digits) {
   create_all_button(list_digits);
 
   const button_digits = document.querySelectorAll(".digit");
+  
   for (let i = 0; i < button_digits.length; i++) {
     let button = button_digits[i];
     button.addEventListener("click", () => {
